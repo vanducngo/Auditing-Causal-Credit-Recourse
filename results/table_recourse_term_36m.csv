@@ -1,0 +1,4 @@
+policy,kind,tau,n,feasible,in_support,success,success_lo,success_hi,delta_risk,payment_change,interest_income_change,expected_default_exposure_change
+Control: grade relabel -3,control,0.218,17495,1.0,0.0,0.139,0.134,0.143,-0.012,0.0,0.0,-0.042
+Term 36 to 60,term,0.218,7685,1.0,0.451,0.101,0.095,0.107,-0.009,-0.302,0.733,-0.028
+Term 60 to 36,term,0.218,9810,0.561,0.911,0.051,0.047,0.056,-0.001,0.406,-0.427,-0.013

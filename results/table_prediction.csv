@@ -1,0 +1,6 @@
+,ROC-AUC,PR-AUC,Brier,ECE,mean predicted,observed
+natural + Platt (ensemble),0.6992,0.3369,0.1422,0.0068,0.184,0.1901
+natural + Platt (seed mean),0.6981,0.3352,0.1424,0.0075,0.184,0.1901
+natural + Platt (seed std),0.0003,0.0008,0.0,0.0006,0.0005,0.0
+"balanced 50/50, uncalibrated",0.6982,0.3367,0.2284,0.2824,0.4725,0.1901
+"natural + Platt, 36-month label",0.687,0.2783,0.126,0.0064,0.153,0.1592

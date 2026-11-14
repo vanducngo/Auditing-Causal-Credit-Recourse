@@ -1,0 +1,22 @@
+# Data (download from Kaggle, see README)
+*.gzip
+LCDataDictionary*
+
+# Drafts, reviews and earlier work not part of this code release
+/*.pdf
+/*.html
+IMCOM_2027_REVIEW.md
+sapxep.md
+causal_credit_underwriting.ipynb
+causual_ai_duyetkhoanvay_daono.ipynb
+previous_paper_causal-ai.ipynb
+images/
+paper/
+paper_improve/
+*.zip
+
+# Generated
+catboost_info/
+results_*/
+.ipynb_checkpoints/
+__pycache__/

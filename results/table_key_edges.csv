@@ -1,0 +1,17 @@
+,"PC, no tiers","PC, tiers","NOTEARS, unconstrained","NOTEARS, tier mask"
+int_rate -> sg,0.55,0.0,0.67,0.0
+sg -> int_rate,0.45,1.0,0.33,0.33
+sg -> y,0.15,0.4,0.67,0.67
+int_rate -> y,0.03,0.03,0.67,0.67
+loan_amnt -> y,0.0,0.0,0.0,0.0
+term -> y,0.28,0.9,0.67,0.67
+loan_amnt -> sg,0.0,0.0,0.0,0.0
+term -> sg,0.47,1.0,0.0,0.0
+term -> int_rate,0.0,0.0,0.0,0.0
+fico -> sg,0.07,0.9,0.33,0.33
+fico -> y,0.0,0.0,0.0,0.0
+annual_inc -> loan_amnt,0.0,1.0,0.67,0.67
+acc_open_past_24mths -> y,0.03,0.6,0.0,0.0
+tot_cur_bal -> y,0.03,0.07,0.0,0.0
+y -> sg,0.25,0.0,0.0,0.0
+y -> int_rate,0.0,0.0,0.33,0.0

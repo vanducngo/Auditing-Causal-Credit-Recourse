@@ -1,0 +1,9 @@
+cohort,graph,top_1,top_2,top_1_value,rank_int_rate,rank_sg
+balanced,G0: rate -> grade -> y,int_rate,tot_cur_bal,0.1122,1,4
+balanced,G1: grade -> rate; grade -> y,sg,acc_open_past_24mths,0.0922,7,1
+balanced,G2: grade -> rate -> y,sg,int_rate,0.0845,2,1
+balanced,G3: grade -> rate; both -> y,sg,tot_cur_bal,0.095,7,1
+natural,G0: rate -> grade -> y,int_rate,acc_open_past_24mths,0.069,1,5
+natural,G1: grade -> rate; grade -> y,sg,acc_open_past_24mths,0.0604,6,1
+natural,G2: grade -> rate -> y,sg,acc_open_past_24mths,0.0552,3,1
+natural,G3: grade -> rate; both -> y,sg,installment,0.0666,6,1

@@ -1,0 +1,3 @@
+lever,R2 ~ sub_grade,R2 ~ sub_grade x quarter,R2 ~ sub_grade x quarter x term,median within-cell std,median within-cell CV
+int_rate,0.9454,0.9969,0.9969,0.0665,0.0042
+loan_amnt,0.0287,0.0465,0.1596,7845.0205,0.4501

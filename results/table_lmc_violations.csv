@@ -1,0 +1,67 @@
+graph,node,non_descendant,p
+G0: rate -> grade -> y,annual_inc,tot_cur_bal,0.0
+G0: rate -> grade -> y,annual_inc,revol_bal,0.0167
+G0: rate -> grade -> y,installment,tot_cur_bal,0.0008
+G0: rate -> grade -> y,installment,int_rate,0.0
+G0: rate -> grade -> y,installment,revol_bal,0.0
+G0: rate -> grade -> y,revol_bal,installment,0.0
+G0: rate -> grade -> y,revol_bal,annual_inc,0.0167
+G0: rate -> grade -> y,tot_cur_bal,int_rate,0.0
+G0: rate -> grade -> y,tot_cur_bal,sg,0.0005
+G0: rate -> grade -> y,tot_cur_bal,installment,0.0
+G0: rate -> grade -> y,tot_cur_bal,acc_open_past_24mths,0.0
+G0: rate -> grade -> y,tot_cur_bal,annual_inc,0.0
+G0: rate -> grade -> y,acc_open_past_24mths,tot_cur_bal,0.0385
+G0: rate -> grade -> y,sg,acc_open_past_24mths,0.0051
+G0: rate -> grade -> y,sg,annual_inc,0.0157
+G0: rate -> grade -> y,int_rate,tot_cur_bal,0.0059
+G0: rate -> grade -> y,int_rate,installment,0.0055
+G1: grade -> rate; grade -> y,annual_inc,tot_cur_bal,0.0
+G1: grade -> rate; grade -> y,annual_inc,revol_bal,0.0167
+G1: grade -> rate; grade -> y,installment,tot_cur_bal,0.0008
+G1: grade -> rate; grade -> y,installment,revol_bal,0.0
+G1: grade -> rate; grade -> y,revol_bal,installment,0.0
+G1: grade -> rate; grade -> y,revol_bal,annual_inc,0.0167
+G1: grade -> rate; grade -> y,tot_cur_bal,int_rate,0.0
+G1: grade -> rate; grade -> y,tot_cur_bal,sg,0.0005
+G1: grade -> rate; grade -> y,tot_cur_bal,installment,0.0
+G1: grade -> rate; grade -> y,tot_cur_bal,acc_open_past_24mths,0.0
+G1: grade -> rate; grade -> y,tot_cur_bal,annual_inc,0.0
+G1: grade -> rate; grade -> y,acc_open_past_24mths,tot_cur_bal,0.0385
+G1: grade -> rate; grade -> y,sg,tot_cur_bal,0.0
+G1: grade -> rate; grade -> y,sg,acc_open_past_24mths,0.0
+G1: grade -> rate; grade -> y,sg,annual_inc,0.0
+G1: grade -> rate; grade -> y,int_rate,revol_bal,0.0178
+G2: grade -> rate -> y,annual_inc,tot_cur_bal,0.0
+G2: grade -> rate -> y,annual_inc,revol_bal,0.0167
+G2: grade -> rate -> y,installment,tot_cur_bal,0.0008
+G2: grade -> rate -> y,installment,revol_bal,0.0
+G2: grade -> rate -> y,revol_bal,installment,0.0
+G2: grade -> rate -> y,revol_bal,annual_inc,0.0167
+G2: grade -> rate -> y,tot_cur_bal,int_rate,0.0
+G2: grade -> rate -> y,tot_cur_bal,sg,0.0005
+G2: grade -> rate -> y,tot_cur_bal,installment,0.0
+G2: grade -> rate -> y,tot_cur_bal,acc_open_past_24mths,0.0
+G2: grade -> rate -> y,tot_cur_bal,annual_inc,0.0
+G2: grade -> rate -> y,acc_open_past_24mths,tot_cur_bal,0.0385
+G2: grade -> rate -> y,sg,tot_cur_bal,0.0
+G2: grade -> rate -> y,sg,acc_open_past_24mths,0.0
+G2: grade -> rate -> y,sg,annual_inc,0.0
+G2: grade -> rate -> y,int_rate,revol_bal,0.0178
+G3: grade -> rate; both -> y,annual_inc,tot_cur_bal,0.0
+G3: grade -> rate; both -> y,annual_inc,revol_bal,0.0167
+G3: grade -> rate; both -> y,installment,tot_cur_bal,0.0008
+G3: grade -> rate; both -> y,installment,revol_bal,0.0
+G3: grade -> rate; both -> y,revol_bal,installment,0.0
+G3: grade -> rate; both -> y,revol_bal,annual_inc,0.0167
+G3: grade -> rate; both -> y,tot_cur_bal,int_rate,0.0
+G3: grade -> rate; both -> y,tot_cur_bal,sg,0.0005
+G3: grade -> rate; both -> y,tot_cur_bal,installment,0.0
+G3: grade -> rate; both -> y,tot_cur_bal,acc_open_past_24mths,0.0
+G3: grade -> rate; both -> y,tot_cur_bal,annual_inc,0.0
+G3: grade -> rate; both -> y,acc_open_past_24mths,tot_cur_bal,0.0385
+G3: grade -> rate; both -> y,y,annual_inc,0.043
+G3: grade -> rate; both -> y,sg,tot_cur_bal,0.0
+G3: grade -> rate; both -> y,sg,acc_open_past_24mths,0.0
+G3: grade -> rate; both -> y,sg,annual_inc,0.0
+G3: grade -> rate; both -> y,int_rate,revol_bal,0.0178

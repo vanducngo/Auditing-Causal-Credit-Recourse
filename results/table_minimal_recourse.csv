@@ -1,0 +1,5 @@
+window,cap,n_flagged,success_unconstrained,success,success_lo,success_hi,success_deflated,success_deflated_lo,success_deflated_hi,equivalent_notches,minus_relabel_3,minus_relabel_3_lo,minus_relabel_3_hi,minus_relabel_4,minus_relabel_4_lo,minus_relabel_4_hi,median_cut_if_success,mean_cut_if_success,volume_change,model_to_dml_used,beats_control,dml_agrees,deflated_beats_control
+2014 H2,20%,17383,0.1744,0.165,0.1598,0.1708,0.1145,0.1099,0.1193,3.4152,0.0189,0.0141,0.0237,-0.0266,-0.0318,-0.0215,0.1,0.1225,-0.02,1.4184,True,True,False
+2014 H2,30%,17383,0.2623,0.2411,0.2346,0.2476,0.1663,0.1606,0.1721,5.0878,0.095,0.0895,0.1006,0.0495,0.0441,0.0553,0.15,0.1721,-0.0424,1.4184,True,True,True
+2013 H2,20%,10066,0.1631,0.1583,0.1511,0.1655,0.1332,0.1267,0.1394,3.9104,0.0364,0.0295,0.0429,-0.0036,-0.0107,0.0032,0.15,0.1259,-0.0205,1.1941,True,True,False
+2013 H2,30%,10066,0.2313,0.2178,0.2102,0.2262,0.1816,0.1742,0.1895,5.5356,0.0959,0.0888,0.104,0.0559,0.0488,0.0641,0.2,0.1748,-0.0407,1.1941,True,True,True

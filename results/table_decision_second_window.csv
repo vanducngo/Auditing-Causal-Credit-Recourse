@@ -1,0 +1,4 @@
+amount_change,n_dml,treatment_resid_mean,theta,se,effect_on_risk,ci_lo,ci_hi,model_effect,model_to_dml,e_value_ci,success,in_support,beats_control,dml_agrees,in_support_90,feasible_90,supported
+-10%,15492,-0.007,0.0442,0.0084,-0.0047,-0.0064,-0.0029,-0.0058,1.2458,1.1181,0.0842,0.9677,False,True,True,True,False
+-20%,15492,-0.007,0.0442,0.0084,-0.0099,-0.0135,-0.0062,-0.0118,1.1941,1.1816,0.1631,0.9385,True,True,True,True,True
+-30%,15492,-0.007,0.0442,0.0084,-0.0158,-0.0216,-0.0099,-0.0164,1.0437,1.2412,0.2313,0.9035,True,True,True,True,True

@@ -1,0 +1,11 @@
+graph,n,draw,permutations,violated,tests,permutation_p,p_reported,falsified_at_0.05,share_in_MEC
+G0: rate -> grade -> y,500,0,40,14,37,0.025,0.025,False,0.0
+G1: grade -> rate; grade -> y,500,0,40,13,36,0.0,< 0.025,False,0.0
+G2: grade -> rate -> y,500,0,40,13,35,0.025,0.025,False,0.0
+G3: grade -> rate; both -> y,500,0,40,13,34,0.075,0.075,True,0.0
+G0: rate -> grade -> y,1000,1,40,17,37,0.0,< 0.025,False,0.0
+G1: grade -> rate; grade -> y,1000,1,40,15,36,0.0,< 0.025,False,0.0
+G2: grade -> rate -> y,1000,1,40,15,35,0.0,< 0.025,False,0.0
+G3: grade -> rate; both -> y,1000,1,40,15,34,0.05,0.050,False,0.0
+G0: rate -> grade -> y,2000,0,20,21,37,0.0,< 0.050,False,0.0
+G2: grade -> rate -> y,2000,0,20,22,35,0.05,0.050,False,0.0
